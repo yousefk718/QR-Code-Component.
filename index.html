@@ -1,11 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR code component</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR code component</title>
+    <!-- Render Style Sheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Render Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="shortcut icon" href="./favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="QR Code Component" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+  </head>
+  <body>
+    <main class="main">
+      <section class="card">
+        <div class="wrapper card__wrapper">
+          <div class="card__body">
+            <img
+              src="./img/QR Image.png"
+              alt="QR code"
+              class="card__image"
+              width="288"
+              height="288"
+            />
+            <div class="card__content">
+              <h1 class="card__title">
+                Improve your front-end skills by building projects
+              </h1>
+              <p class="card__text">
+                Scan the QR code to visit Frontend Mentor and take your coding
+                skills to the next level
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
